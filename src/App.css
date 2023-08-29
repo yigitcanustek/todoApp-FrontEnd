@@ -1,0 +1,85 @@
+.main-container{
+  min-height: 300px;
+  min-width: 750px;
+  background-color: #fff;
+  border-radius: 0 0 25px 25px;
+  border-color: black;
+  border-style: solid;
+  border-width: 5px 15px 15px 5px;
+
+  display: flex;
+  flex-flow: column;
+  gap: 5px;
+}
+
+.empty{
+  margin: 10px 3px 0 3px;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 10px;
+  flex: auto;
+}
+
+.list{
+  margin: 10px 3px 0 3px;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 10px;
+  flex: auto;
+
+  /*Liste konteynerinin taşıp taşmayacağını ayarla */
+  max-height: 250px;
+  max-width: 750px;
+  overflow: scroll;
+  
+}
+
+.list > *{
+  padding: 5px;
+  border: solid;
+  /* margin: 0; */
+}
+
+.list > div {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list > div > p {
+  margin: 0;
+}
+
+.list > div > button {
+  max-height: 35px;
+  align-self: center;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-radius: 5px;
+}
+
+.input{
+  height: 35px;
+  margin: 0 3px 5px 3px;
+  display: flex;
+  gap: 1px;
+}
+
+#todo_txt{
+  background-color: #daf5f0;
+  flex: auto;
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px 3px 5px 3px;
+}
+
+#todo_btn{
+  background-color: #a388ee;
+  width: 75px;
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px 3px 5px 3px;
+}
